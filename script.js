@@ -1,17 +1,16 @@
 
 // Import Firebase modules
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+import { initializeApp } from "firebase/app";
+import { getFirestore, collection, addDoc } from "firebase/firestore";
 
 // Your Firebase configuration
 const firebaseConfig = {
-  // Replace these with your actual Firebase config values
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDl5vZXe5X5ykfl2wOJ2t6DlytEQSJqR9Q",
+  authDomain: "replitfirebase-e797b.firebaseapp.com",
+  projectId: "replitfirebase-e797b",
+  storageBucket: "replitfirebase-e797b.firebasestorage.app",
+  messagingSenderId: "172677088081",
+  appId: "1:172677088081:web:93fd9b9a9157a7f7494970"
 };
 
 // Initialize Firebase and Firestore
