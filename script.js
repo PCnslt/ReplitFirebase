@@ -20,7 +20,7 @@ const db = getFirestore(app);
 // Form submission handler
 document.getElementById('userForm').addEventListener('submit', async (e) => {
   e.preventDefault();
-  
+
   const formData = {
     name: document.getElementById('name').value,
     email: document.getElementById('email').value,
